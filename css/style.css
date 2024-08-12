@@ -258,9 +258,84 @@ header {
     font-size: 43px;
 }
 
-.duvida{
-    height: 590px;
+
+.faq {
+    font-family: sans-serif;
+    min-height: 472px;
     background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin: 70px 190px 58px 190px;
+}
+
+.faq h2 {
+    font-size: 40px;
+    align-self: center;
+    margin-bottom: 80px;
+}
+
+.pergunta {
+    background: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 30px 32px;
+    border: none;
+    text-align: left;
+    transition: 0.4s;
+    border-bottom: 1px solid #F2F2F2;
+    position: relative;
+}
+
+.arrow {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    position: absolute;
+    right: 35px;
+    top: 50%;
+    transform: translateY(-50%) rotate(180deg);
+    transition: transform 0.3s;
+    color: #333;
+    vertical-align: middle;
+    width: 24px;
+    height: 24px;
+}
+
+.pergunta.active .arrow {
+    transform: translateY(-50%) rotate(360deg);
+}
+
+.panel p,
+.panel ol li {
+    font-size: 1rem;
+}
+
+.panel p{
+    margin: 20px 16px
+}
+
+.panel ol li {
+    margin-left: 34px;
+}
+
+.active,
+.pergunta:hover {
+    text-decoration: underline;
+    background-color: #F6F6F6;
+    transition: 0.1s;
+}
+
+.panel {
+    padding: 0 18px;
+    margin-bottom: 25px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+strong {
+    color: #117A37;
+    font-weight: 600;
 }
 
 .gostou{
