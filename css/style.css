@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -93,10 +93,10 @@ header {
 }
 
 .dropdown-content a p {
-    color: #9b9b9b;
-    font-size: 13px;
-    font-family: "Radio Canada Big", sans-serif;
-    font-weight: 100;
+    color: #bdb3b3;
+    font-size: 11px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: bold;
     line-height: 18px;
     margin-top: 6px;
 }
@@ -174,7 +174,7 @@ header {
     border-radius: 35px;
     cursor: pointer;
     word-spacing: 1px;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 15px;
     background-color: white;
 }
@@ -221,14 +221,14 @@ header {
 }
 
 .favoritas h3{
-    margin-top: 26px;
-    font-size: 22px;
-    font-family: "Catamaran", sans-serif;
+    margin-top: 28px;
+    font-size: 20px;
+    font-family: "DM Sans", sans-serif;
     font-weight: bold;
 }
 
 .favoritas p{
-    margin: 5px auto;
+    margin: 10px auto;
     width: 245px;
     font-family: "Radio Canada Big", sans-serif;
     font-weight: 400;
@@ -252,14 +252,14 @@ header {
 }
 
 .playlist h3{
-    margin-top: 26px;
-    font-size: 22px;
-    font-family: "Catamaran", sans-serif;
+    margin-top: 28px;
+    font-size: 20px;
+    font-family: "DM Sans", sans-serif;
     font-weight: bold;
 }
 
 .playlist p{
-    margin: 5px auto;
+    margin: 10px auto;
     width: 235px;
     font-family: "Radio Canada Big", sans-serif;
     font-weight: 400;
@@ -283,14 +283,14 @@ header {
 }
 
 .coracao h3{
-    margin-top: 26px;
-    font-size: 22px;
-    font-family: "Catamaran", sans-serif;
+    margin-top: 28px;
+    font-size: 20px;
+    font-family: "DM Sans", sans-serif;
     font-weight: bold;
 }
 
 .coracao p{
-    margin: 5px auto;
+    margin: 10px auto;
     width: 235px;
     font-family: "Radio Canada Big", sans-serif;
     font-weight: 400;
@@ -314,9 +314,9 @@ header {
 }
 
 .economia h3{
-    margin-top: 30px;
-    font-size: 22px;
-    font-family: "Catamaran", sans-serif;
+    margin-top: 28px;
+    font-size: 20px;
+    font-family: "DM Sans", sans-serif;
     font-weight: bold;
     line-height: 28px;
 }
@@ -341,7 +341,7 @@ header {
     text-align: center;
     margin: auto;
     color: white;
-    font-size: 43px;
+    font-size: 48px;
 }
 
 
@@ -351,13 +351,13 @@ header {
     background-color: #fff;
     display: flex;
     flex-direction: column;
-    margin: 70px 190px 58px 190px;
+    margin: 70px 190px 46px 190px;
 }
 
 .faq h2 {
     font-size: 40px;
     align-self: center;
-    margin-bottom: 80px;
+    margin-bottom: 75px;
 }
 
 .pergunta {
@@ -365,7 +365,7 @@ header {
     font-size: 18px;
     font-weight: bold;
     cursor: pointer;
-    padding: 30px 32px;
+    padding: 28px 30px;
     border: none;
     text-align: left;
     transition: 0.4s;
@@ -377,7 +377,7 @@ header {
     font-size: 16px;
     font-family: Arial, sans-serif;
     position: absolute;
-    right: 35px;
+    right: 30px;
     top: 50%;
     transform: translateY(-50%) rotate(180deg);
     transition: transform 0.3s;
@@ -394,14 +394,15 @@ header {
 .panel p,
 .panel ol li {
     font-size: 1rem;
+    font-family: "Radio Canada Big", sans-serif;
 }
 
 .panel p{
-    margin: 20px 13px
+    margin: 10px 13px 22px 13px;
 }
 
 .panel ol li {
-    margin-left: 41px;
+    margin-left: 42px;
 }
 
 .active,
@@ -421,7 +422,7 @@ header {
 }
 
 strong {
-    color: #117A37;
+    color: #14873c;
     font-weight: 600;
 }
 
@@ -436,28 +437,201 @@ strong {
 
 .gostou h2{
     text-align: center;
-    font-size: 76px;
+    font-size: 80px;
+    font-family: "DM Sans", sans-serif;
     color: white;
-    padding-top: 155px;
+    padding-top: 140px;
 }
 
 .gostou .botao #baixar_btn{
-    padding: 16px 30px;
+    padding: 15px 32px;
     border: none;
     border-radius: 35px;
     cursor: pointer;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 16px;
     margin-top: 30px;
 }
 
 .botao #baixar_btn:hover{
-    font-size: 16px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+footer{
+    height: 600px;
+    background-color: black;
+    padding: 80px 0 50px 0;
+    unicode-bidi: isolate;
 }
 
 .rodape{
-    height: 600px;
-    background-color: black;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1170px;
+    unicode-bidi: isolate;
 }
 
+.rodape .spotify-rodape{
+    flex: 0 0 auto;
+    width: 16.66666667%;
+    min-height: 346px;
+    padding: 0 15px;
+}
 
+.spotify-rodape a .logo-rodape{
+    height: 36px;
+    width: 132px;
+    display: inline-block;
+}
+
+.rodape .links-rodape{
+    width: 50%;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: row;
+    font-family: "DM Sans", sans-serif;
+}
+
+.links-rodape ul{
+    padding: 0 15px;
+    flex: 1 0;
+}
+
+.links-rodape ul h2{
+    margin: 20px 0;
+    color: #919496;
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 1.4;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+}
+
+.links-rodape ul li{
+    list-style: none;
+    display: list-item;
+}
+
+.links-rodape ul li a{
+    padding: 3px 0 15px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 1.5;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.links-rodape ul li a:hover{
+    color: #1ed760;
+}
+
+.rodape .redes-rodape{
+    margin: 0 15px 0 auto;
+}
+
+.redes-rodape ul{
+    margin: 20px 0 0;
+}
+
+.redes-rodape ul .logo-rede{
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.redes-rodape ul .logo-facebook{
+    display: inline-block;
+}
+
+.redes-rodape ul li a{
+    border-radius: 50%;
+    background-color: #222326;
+    width: 54px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.redes-rodape ul li a img {
+    width: 24px;
+    height: 24px;
+}
+
+.redes-rodape ul li a:hover img{
+    filter: invert(55%) sepia(68%) saturate(750%) hue-rotate(85deg) brightness(92%) contrast(101%);
+}
+
+.rodape .regiao{
+    margin: 0 15px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.regiao a{
+    padding: 1em 0;
+    font-size: 12px;
+    color: #919496;
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.regiao a:hover{
+    color: #1ed760;
+}
+
+.regiao a svg{
+    margin: 0 8px 0 0;
+    width: 12;
+    height: 13;
+    overflow: hidden;
+}
+
+.privacidade{
+    width: 100%;
+    display: flex;
+}
+
+.privacidade ul{
+    margin: 0 45px 0 0;
+    padding: 0 0 0 15px;
+}
+
+.privacidade ul li{
+    margin-right: 24px;
+    list-style: none;
+    display: inline-block;
+    line-height: normal;
+    letter-spacing: 0;
+}
+
+.privacidade ul li a{
+    padding: 1em 0;
+    font-size: 12px;
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    white-space: nowrap;
+    text-decoration: none;
+    color: #919496;
+}
+
+.privacidade ul li a:hover{
+    color: #1ed760;
+}
+
+.privacidade span{
+    margin: 0 15px 0 auto;
+    padding: 1em 0;
+    font-size: 12px;
+    flex-shrink: 0;
+    color: #919496;
+}
