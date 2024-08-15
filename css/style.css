@@ -4,11 +4,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
-    /*font-family: Helvetica, sans-serif;
-    font-family: "Radio Canada Big", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;*/
 }
 
 header {
@@ -123,22 +118,22 @@ header {
     grid-column: 1/3;
     display: flex;
     position: relative; 
-    justify-content: center;
+    justify-content: right;
     align-items: flex-end;
-    margin-left: 200px;
 }
 
 .aplicativo .celular{
-    width: 394px;
-    height: 585px;
-    margin-bottom: -85px;
+    max-width: 374px;
+    height: 574px;
+    margin: 0 58px -74px 0;
     position: absolute;
     z-index: 1;
 }
 
 .aplicativo .fundo-celular{
-    width: 270px;
-    height: 440px;
+    max-width: 270px;
+    height: 442px;
+    margin-right: 65px;
     position: relative;
     z-index: 3;
 }
@@ -148,7 +143,7 @@ header {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: 150px;
-    padding: 32px 0px 0px 35px;
+    padding: 32px 0px 0px 4%;
 }
 
 .baixar h1{
@@ -184,13 +179,19 @@ header {
     font-size: 18px;
 }
 
-.segundo{
+.segundo-bloco{
+    display: flex;
+    justify-content: center;
+    width: 100%;
     height: 624px;
     background-color: #fff;
-    margin: 0 12%;
+}
+
+.segundo-bloco .segundo{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: 156px;
+    max-width: 1140px;
 }
 
 .segundo h2{
@@ -344,14 +345,14 @@ header {
     font-size: 48px;
 }
 
-
 .faq {
     font-family: sans-serif;
     min-height: 472px;
     background-color: #fff;
     display: flex;
     flex-direction: column;
-    margin: 70px 190px 46px 190px;
+    margin: 70px auto 46px auto;
+    max-width: 1140px;
 }
 
 .faq h2 {
@@ -469,7 +470,7 @@ footer{
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    width: 1170px;
+    max-width: 1170px;
     unicode-bidi: isolate;
 }
 
@@ -635,3 +636,39 @@ footer{
     flex-shrink: 0;
     color: #919496;
 }
+
+@media screen and (max-width: 1264px){
+    .baixar h1{
+        font-size: 56px;
+    }
+
+    .baixar .botao{
+        margin-top: 93px;
+    }
+
+    .faq {
+        max-width: 1025px;
+    }
+}
+
+@media screen and (max-width: 1115px){
+    .baixar h1{
+        font-size: 50px;
+    }
+
+    .baixar .botao{
+        margin-top: 90px;
+    }
+
+    .faq {
+        max-width: 940px;
+    }
+
+}
+
+@media screen and (max-width: 1041px){
+    .gostou h2{
+        padding-top: 94px;
+    }
+}
+
