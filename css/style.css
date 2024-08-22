@@ -59,6 +59,10 @@ header {
     text-decoration: none;
 }
 
+.header-nav ul li .login{
+    color: #e8e8ea;
+}
+
 .separator {
     border-left: 2px solid #fff;
     height: 20px;
@@ -904,6 +908,18 @@ footer{
 }
 
 @media screen and (max-width: 1115px){
+    .header-nav ul li {
+        margin-right: 15px;
+    }
+
+    .header-nav ul li a{
+        font-size: 14px
+    }
+
+    .separator {
+        margin: auto 0px;
+    }
+
     .baixar h1{
         font-size: 50px;
     }
