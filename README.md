@@ -14,7 +14,7 @@ Foi realizado um projeto para o conteúdo de Front End ao qual foi utilizado o s
 
 Link do Site (08/2024): https://www.spotify.com/br-pt/free/?ref=spotifycom_footer_free
 
-Imagens do site: 
+Imagens do site do Spotify: 
 ![image](https://github.com/user-attachments/assets/6778fbdd-5272-401c-9d22-5044882c5cdc)
 ![image](https://github.com/user-attachments/assets/1eeb110a-74af-4b06-8a50-62e5751d93bd)
 ![image](https://github.com/user-attachments/assets/b97e4919-bc96-46e5-b49c-6bbe09383cb7)
