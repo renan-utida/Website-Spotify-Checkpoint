@@ -88,7 +88,7 @@ header {
     font-weight: 600;
     font-size: 15px;
     cursor: pointer;
-    padding: 30px 10px 31px 10px;
+    padding: 30px 15px 31px 15px;
 }
 
 .dropbtn span:hover{
@@ -387,14 +387,14 @@ header {
     font-size: 16px;
 }
 
-.terceiro{
+.terceiro-bloco{
     height: 500px;
     background-image: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
     display: flex;
     flex-direction: column;
 }
 
-.terceiro h2{
+.terceiro-bloco h2{
     text-align: center;
     margin: auto;
     color: white;
