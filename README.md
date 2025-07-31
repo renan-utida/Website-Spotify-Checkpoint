@@ -6,9 +6,6 @@ Turma: 1ESPG
 
 Integrantes:
 Renan Dias Utida - RM 558540
-Murilo Justi Rodrigues - RM 554512
-Leonardo Scarpitta - RM 555460
-Fabrício Carlos Duarte - RM 555017
 
 Foi realizado um projeto para o conteúdo de Front End ao qual foi utilizado o site do Spotify para reproduzir a página inicial.
 
