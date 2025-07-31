@@ -7,6 +7,8 @@ Engenharia de Software - Agosto / 2024
 
 
 - Renan Dias Utida - RM 558540
+
+
 **Linkedin:** https://www.linkedin.com/in/renan-dias-utida-1b1228225/
 
 ## 📝 Descrição
