@@ -12,6 +12,12 @@ Engenharia de Software - Agosto / 2024
 
 ---
 
+## 💻 Link Projeto:
+
+https://website-spotify-checkpoint.vercel.app/
+
+---
+
 ## 📝 Descrição
 Foi realizado um projeto para o conteúdo de Front End ao qual tivemos que escolher uma página de um site qualquer e reproduzí-la com o intuito de ficar o mais parecido o possível da página Original. Utilizei o site do Spotify para me inspirar e reproduzir a página inicial.
 
@@ -24,7 +30,7 @@ Foi realizado um projeto para o conteúdo de Front End ao qual tivemos que escol
 
 ---
 
-## 💻 Link do Site (08/2024): 
+## 💻 Link do Site Original(08/2024): 
 
 https://www.spotify.com/br-pt/free/?ref=spotifycom_footer_free
 
